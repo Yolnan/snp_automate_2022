@@ -66,8 +66,8 @@
       <param name="slop" value="0.05"/>
     </node>
     <include file="$(find-pkg-share realsense2_camera)/launch/rs_launch.py">
-      <arg name="align_depth" value="true"/>
-      <arg name="enable_pointcloud" value="true"/>
+      <arg name="align_depth.enable" value="true"/>
+      <arg name="pointcloud.enable" value="true"/>
       <arg name="rgb_camera.profile" value="640x360x30"/>
     </include>
   </group>
